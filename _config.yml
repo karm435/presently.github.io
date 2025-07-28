@@ -34,17 +34,25 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Cartoon Generation
-    description                           : Choose from different styles of selection and generate new images
-    fontawesome_icon_name                 : image  
+  - title                                 : Deep App Insights
+    description                           : Get comprehensive insights from app reviews with detailed analytics and trends
+    fontawesome_icon_name                 : chart-line  
 
-  - title                                 : Accurate Transformation
-    description                           : Transform images with accurate transformation.
-    fontawesome_icon_name                 : image
+  - title                                 : AI Sentiment Analysis
+    description                           : AI-powered sentiment analysis to understand customer emotions and feedback patterns
+    fontawesome_icon_name                 : brain
 
-  - title                                 : User Interface
-    description                           : Modern UI 
-    fontawesome_icon_name                 : mobile
+  - title                                 : AI Opportunity Finding
+    description                           : Discover growth opportunities and improvement areas through intelligent AI analysis
+    fontawesome_icon_name                 : lightbulb
+
+  - title                                 : Global App Store Search
+    description                           : Analyze app reviews from any country using advanced App Store search capabilities
+    fontawesome_icon_name                 : globe
+
+  - title                                 : Competition Analysis
+    description                           : Detailed competitive analysis to understand market positioning and competitor strategies
+    fontawesome_icon_name                 : users
 
 faqs                                      :
 
