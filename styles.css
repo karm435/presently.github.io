@@ -129,8 +129,10 @@ p {
 }
 
 .store-icon {
-    width: 20px;
-    height: 20px;
+    height: 22px;
+    width: auto;
+    display: inline-block;
+    object-fit: contain;
 }
 
 /* Navigation */
