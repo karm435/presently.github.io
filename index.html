@@ -1,3 +1,433 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviewly - AI-Powered App Review Analysis</title>
+    <meta name="description" content="Reviewly helps businesses and developers analyze app reviews with AI-powered insights. Discover opportunities, understand customer sentiment, and stay ahead of competition.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/appIcon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/appIcon.png" alt="Reviewly" class="logo-img">
+                <span class="logo-text">Reviewly</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#business" class="nav-link">Business</a>
+                <a href="#personal" class="nav-link">Personal</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="privacy.html" class="nav-link">Privacy</a>
+                <a href="terms.html" class="nav-link">Terms</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1 class="hero-title">
+                    AI-Powered App Review Analysis
+                    <span class="gradient-text">for Everyone</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Transform app reviews into actionable insights with advanced AI analysis. 
+                    Perfect for businesses analyzing competition and developers finding market opportunities.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://apps.apple.com/app/id6748536230" class="btn btn-primary" target="_blank">
+                        <img src="assets/appstore.png" alt="App Store" class="store-icon">
+                        Download on App Store
+                    </a>
+                    <div class="hero-badges">
+                        <span class="badge">iOS</span>
+                        <span class="badge">iPadOS</span>
+                        <span class="badge">macOS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="assets/headerimage.png" alt="Reviewly App" class="hero-img clickable-image" data-caption="Reviewly App Interface">
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-subtitle">Everything you need to analyze app reviews and discover opportunities</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Deep App Insights</h3>
+                    <p>Get comprehensive insights from app reviews with detailed analytics and trends</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Sentiment Analysis</h3>
+                    <p>AI-powered sentiment analysis to understand customer emotions and feedback patterns</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>AI Opportunity Finding</h3>
+                    <p>Discover growth opportunities and improvement areas through intelligent AI analysis</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global App Store Search</h3>
+                    <p>Analyze app reviews from any country using advanced App Store search capabilities</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Competition Analysis</h3>
+                    <p>Detailed competitive analysis to understand market positioning and competitor strategies</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Cross-Platform</h3>
+                    <p>Works seamlessly on iPhone, iPad, and Mac with optimized interfaces for each device</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Use Case -->
+    <section id="business" class="use-case business">
+        <div class="container">
+            <div class="use-case-header" data-aos="fade-up">
+                <h2>For Business & Competition Analysis</h2>
+                <p>Stay ahead of your competition by analyzing their app reviews and understanding customer sentiment. Identify market gaps and opportunities to improve your own products.</p>
+                <div class="use-case-features-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Monitor competitor app performance</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>Identify customer pain points</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Discover market opportunities</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-trending-up"></i>
+                        <span>Track rating trends over time</span>
+                    </div>
+                </div>
+                <a href="https://apps.apple.com/app/id6748536230" class="btn btn-secondary" target="_blank">
+                    Get Started for Business
+                </a>
+            </div>
+            <div class="use-case-gallery" data-aos="fade-up" data-aos-delay="200">
+                <div class="gallery-scroll">
+                    <div class="gallery-item">
+                        <img src="assets/Business/Hero.jpg" alt="Business Dashboard" class="clickable-image" data-caption="Business Dashboard">
+                        <div class="gallery-caption">Business Dashboard</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Business/AI Review Analysis.jpg" alt="AI Review Analysis" class="clickable-image" data-caption="AI Review Analysis">
+                        <div class="gallery-caption">AI Review Analysis</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Business/Similar Apps.jpg" alt="Similar Apps" class="clickable-image" data-caption="Similar Apps">
+                        <div class="gallery-caption">Similar Apps</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Business/Rating Performance.jpg" alt="Rating Performance" class="clickable-image" data-caption="Rating Performance">
+                        <div class="gallery-caption">Rating Performance</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Business/Add Apps.jpg" alt="Add Apps" class="clickable-image" data-caption="Add Apps">
+                        <div class="gallery-caption">Add Apps</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Business/Seach for app.jpg" alt="Search for App" class="clickable-image" data-caption="Search for App">
+                        <div class="gallery-caption">Search for App</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Use Case -->
+    <section id="personal" class="use-case personal">
+        <div class="container">
+            <div class="use-case-header" data-aos="fade-up">
+                <h2>For Personal App Development</h2>
+                <p>Research different apps and find gaps in the market. Understand what users love and hate about existing apps to create better products.</p>
+                <div class="use-case-features-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-search"></i>
+                        <span>Research app market trends</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-rocket"></i>
+                        <span>Find untapped market opportunities</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-users"></i>
+                        <span>Understand user preferences</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Validate app ideas</span>
+                    </div>
+                </div>
+                <a href="https://apps.apple.com/app/id6748536230" class="btn btn-secondary" target="_blank">
+                    Start Researching
+                </a>
+            </div>
+            <div class="use-case-gallery" data-aos="fade-up" data-aos-delay="200">
+                <div class="gallery-scroll">
+                    <div class="gallery-item">
+                        <img src="assets/Personal/Hero.jpg" alt="Personal Dashboard" class="clickable-image" data-caption="Personal Dashboard">
+                        <div class="gallery-caption">Personal Dashboard</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Personal/AI Review Analysis.jpg" alt="AI Review Analysis" class="clickable-image" data-caption="AI Review Analysis">
+                        <div class="gallery-caption">AI Review Analysis</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Personal/Review Summarry.jpg" alt="Review Summary" class="clickable-image" data-caption="Review Summary">
+                        <div class="gallery-caption">Review Summary</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Personal/Similar Apps.jpg" alt="Similar Apps" class="clickable-image" data-caption="Similar Apps">
+                        <div class="gallery-caption">Similar Apps</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Personal/Add Apps.jpg" alt="Add Apps" class="clickable-image" data-caption="Add Apps">
+                        <div class="gallery-caption">Add Apps</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/Personal/Seach for app.jpg" alt="Search for App" class="clickable-image" data-caption="Search for App">
+                        <div class="gallery-caption">Search for App</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- iPad Section -->
+    <section class="ipad-showcase">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Optimized for iPad & Mac</h2>
+                <p>Experience Reviewly on larger screens with enhanced interfaces and powerful workflows</p>
+            </div>
+            <div class="ipad-images" data-aos="zoom-in">
+                <img src="assets/iPad/Hero.jpg" alt="iPad Interface" class="ipad-main clickable-image" data-caption="iPad Interface">
+                <div class="ipad-secondary">
+                    <img src="assets/iPad/Advanced AI Analysis.jpg" alt="Advanced AI Analysis" class="clickable-image" data-caption="Advanced AI Analysis">
+                    <img src="assets/iPad/Revenue & Download.jpg" alt="Revenue & Download" class="clickable-image" data-caption="Revenue & Download">
+                    <img src="assets/iPad/Similar Apps.jpg" alt="Similar Apps" class="clickable-image" data-caption="Similar Apps">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Simple Pricing</h2>
+                <p>Choose the plan that works best for you</p>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h3>Free</h3>
+                        <div class="price">$0</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Basic app analysis</li>
+                        <li><i class="fas fa-check"></i> Limited reviews per day</li>
+                        <li><i class="fas fa-check"></i> Standard AI insights</li>
+                    </ul>
+                    <a href="https://apps.apple.com/app/id6748536230" class="btn btn-outline" target="_blank">
+                        Get Started Free
+                    </a>
+                </div>
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">$9.99<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited app analysis</li>
+                        <li><i class="fas fa-check"></i> Advanced AI insights</li>
+                        <li><i class="fas fa-check"></i> Competition tracking</li>
+                        <li><i class="fas fa-check"></i> Export reports</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                    <a href="https://apps.apple.com/app/id6748536230" class="btn btn-primary" target="_blank">
+                        Start Pro Trial
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>How does Reviewly analyze app reviews?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Reviewly uses advanced AI algorithms to analyze app reviews from the App Store, providing sentiment analysis, trend identification, and actionable insights to help you understand user feedback patterns.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Can I analyze apps from different countries?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Reviewly supports global App Store search, allowing you to analyze app reviews from any country and understand regional market differences and user preferences.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>How do I contact support?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can reach out to support@karmaacademy.com.au for any support requests. Our team is here to help you get the most out of Reviewly.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>Is my data secure?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. All data stays on your device and is never shared with third parties. You can delete all data by simply deleting the app and clearing your iCloud account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Transform Your App Analysis?</h2>
+                <p>Join thousands of businesses and developers who are already using Reviewly to gain competitive insights</p>
+                <a href="https://apps.apple.com/app/id6748536230" class="btn btn-primary btn-large" target="_blank">
+                    <img src="assets/appstore.png" alt="App Store" class="store-icon">
+                    Download Reviewly
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/appIcon.png" alt="Reviewly" class="logo-img">
+                        <span class="logo-text">Reviewly</span>
+                    </div>
+                    <p>AI-powered app review analysis for businesses and developers.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#business">Business</a></li>
+                        <li><a href="#personal">Personal</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="mailto:support@karmaacademy.com.au">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Karma Academy Pty Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div class="image-modal" id="imageModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <img class="modal-image" id="modalImage" src="" alt="">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
