@@ -315,5 +315,5 @@ document.addEventListener('keydown', function(e) {
 });
 
 // Console welcome message
-console.log('%c🚀 Welcome to Reviewly!', 'color: #1d63ea; font-size: 20px; font-weight: bold;');
+console.log('%c🚀 Welcome to presently!', 'color: #1d63ea; font-size: 20px; font-weight: bold;');
 console.log('%cAI-powered app review analysis for everyone', 'color: #6b7280; font-size: 14px;'); 

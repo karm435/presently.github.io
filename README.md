@@ -1,6 +1,6 @@
-# Reviewly - AI-Powered App Review Analysis
+# presently - AI-Powered App Review Analysis
 
-A modern, responsive website for Reviewly - an AI-powered app review analysis tool for businesses and developers.
+A modern, responsive website for presently - an AI-powered app review analysis tool for businesses and developers.
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ A modern, responsive website for Reviewly - an AI-powered app review analysis to
 ## 📁 Project Structure
 
 ```
-Reviewly/
+presently/
 ├── index.html          # Main homepage
 ├── privacy.html        # Privacy Policy page
 ├── terms.html          # Terms of Use page
@@ -37,7 +37,7 @@ Reviewly/
 1. **Open Terminal/Command Prompt**
 2. **Navigate to the project directory**:
    ```bash
-   cd /path/to/Reviewly
+   cd /path/to/presently
    ```
 
 3. **Start a local server**:
@@ -157,7 +157,7 @@ Replace images in the `assets/` folder:
 
 For support or questions about the website:
 - Email: support@karmaacademy.com.au
-- App Store: [Reviewly on App Store](https://apps.apple.com/app/id6748536230)
+- App Store: [presently on App Store](https://apps.apple.com/app/id6748536230)
 
 ## 📄 License
 
@@ -165,7 +165,7 @@ For support or questions about the website:
 
 ---
 
-**Note**: This website is designed to showcase the Reviewly app and provide information about its features and capabilities. The actual app functionality is separate from this website.
+**Note**: This website is designed to showcase the presently app and provide information about its features and capabilities. The actual app functionality is separate from this website.
 
 
 
